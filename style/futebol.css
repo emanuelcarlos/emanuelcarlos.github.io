@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #056e0a   ;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 150px;
+}
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+main {
+    padding: 20px;
+}
+
+.odds {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.odd-button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ticket {
+    margin-top: 30px;
+}
+
+.ticket h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#concluir-button {
+    padding: 10px 20px;
+    background-color: #056e0a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#message {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Estilos globais normais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Estilos globais no modo escuro */
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Resto dos seus estilos normais */
+/* ... */
+
+/* Resto dos seus estilos no modo escuro */
+body.dark-mode .sports-nav {
+    background-color: #444;
+    border-bottom-color: #555;
+}
+
+/* ... */
