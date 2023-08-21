@@ -1,0 +1,114 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #056e0a;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Seção de destaque */
+.featured {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.featured h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.featured p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #ff8800;
+}
+
+/* Seção de esportes populares */
+.popular-sports {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.popular-sports h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.popular-sports ul {
+    list-style: none;
+}
+
+.popular-sports li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.popular-sports a {
+    text-decoration: none;
+    color: #333;
+}
+
+.popular-sports img {
+    max-width: 80px;
+}
+
+.popular-sports span {
+    display: block;
+    margin-top: 5px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
