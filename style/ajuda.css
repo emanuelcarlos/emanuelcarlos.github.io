@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #323633;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact,
+.faq {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact p,
+.faq p {
+    margin: 10px 0;
+}
+
+.faq-item {
+    margin-bottom: 90px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
